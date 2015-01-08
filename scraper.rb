@@ -644,7 +644,8 @@ end
 @agent = Mechanize.new
 string = "1964 impala"
 string = string.gsub(" ","%20")
-search = "http://www.cardomain.com/cars/?key=#{string}&showflags=1"
+#search = "http://www.cardomain.com/cars/?key=#{string}&showflags=1"
+search = "http://sfbay.craigslist.org/eby/cto/"
 
 page = @agent.get(search)
 p page
