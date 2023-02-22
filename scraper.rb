@@ -40,7 +40,7 @@ require 'open-uri'
 # The starting URL to get cars from
 
 # Todo: Change the STARTING_URL to reflect your work
-STARTING_URL = 'http://sfbay.craigslist.org/eby/cto/'
+STARTING_URL = 'https://sfbay.craigslist.org/search/eby/cta'
 
 # some hash for checking ----------------------------
 PHONE_PATTERNS = [/\(?\+?\d{2,3}\)?[-. ]?\d{3}[-. ]?\d{4}/]
